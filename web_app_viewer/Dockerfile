@@ -1,9 +1,5 @@
-# Usa l'immagine base di nginx
-FROM nginx:alpine
+FROM nginx:stable-alpine
 
-# Copia i file della web app e configurazione di nginx
-COPY ./www /usr/share/nginx/html
-COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY rootfs/ /
 
-# Esponi la porta 80
-EXPOSE 80
+CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
