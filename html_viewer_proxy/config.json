@@ -10,5 +10,13 @@
     "80/tcp": 8080
   },
   "webui": "http://[HOST]:[PORT:80]",
-  "ingress": true
+  "ingress": true,
+  "panel_icon": "mdi:web",
+  "panel_title": "HTML Viewer",
+  "options": {
+    "target_url": "http://localhost:8080"
+  },
+  "schema": {
+    "target_url": "str"
+  }
 }
