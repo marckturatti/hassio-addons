@@ -3,7 +3,6 @@
   "url": "https://github.com/marckturatti/hassio-addons",
   "maintainer": "Marckturatti <tua@email.com>",
   "addons": [
-    "web_app_viewer",
-    "grocy"
+    "web_app_viewer"
   ]
 }
