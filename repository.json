@@ -1,8 +1,8 @@
 {
-  name My Custom Add-ons,
-  url httpsgithub.comtuo-usernamehassio-addons,
-  maintainer marck.turatti,
-  addons [
-    web_app_viewer
+  "name": "Marckturatti Add-ons",
+  "url": "https://github.com/marckturatti/hassio-addons",
+  "maintainer": "Marckturatti <tua@email.com>",
+  "addons": [
+    "web_app_viewer"
   ]
 }
