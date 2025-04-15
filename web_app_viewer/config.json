@@ -14,5 +14,12 @@
     "server_port": "int"
   },
   "host_network": true,
-  "map": ["config:rw"]
+  "map": ["config:rw"],
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ]
 }
